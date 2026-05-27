@@ -1,0 +1,6 @@
+.cta-box{max-width:740px;margin:0 auto;border:1px solid rgba(212,168,67,.3);border-top:2px solid var(--gold);border-radius:5px;padding:3.5rem 3rem;text-align:center;background:rgba(10,34,85,.5);position:relative;overflow:hidden}
+.cta-box::before{content:'';position:absolute;top:-60px;right:-60px;width:220px;height:220px;border-radius:50%;background:rgba(212,168,67,.04);pointer-events:none}
+.cta-info{display:flex;justify-content:center;gap:2.5rem;margin:1.5rem 0 2.5rem;flex-wrap:wrap}
+.ci{display:flex;flex-direction:column;align-items:center;gap:.3rem}
+.ci-l{font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(240,244,250,.35)}
+.ci-v{font-family:'Barlow Condensed',sans-serif;font-size:1.1rem;font-weight:700;color:var(--gold)}

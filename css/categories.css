@@ -1,0 +1,16 @@
+.cat-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-top:2.25rem}
+.cat-block{border:1px solid rgba(212,168,67,.2);border-top:2px solid var(--gold-dark);border-radius:4px;overflow:hidden;background:rgba(255,255,255,.02)}
+.cat-header{padding:.9rem 1.4rem;border-bottom:1px solid rgba(212,168,67,.15)}
+.cat-header h3{font-family:'Barlow Condensed',sans-serif;font-size:1.1rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+.cat-rows{padding:.5rem 0}
+.cat-row{display:flex;justify-content:space-between;align-items:center;padding:.5rem 1.4rem;border-bottom:1px solid rgba(26,80,160,.1);transition:background .15s}
+.cat-row:last-child{border-bottom:none}
+.cat-row:hover{background:rgba(26,80,160,.07)}
+.cat-name{font-family:'Barlow Condensed',sans-serif;font-size:.98rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--white)}
+.cat-range{font-size:.8rem;color:rgba(240,244,250,.38);margin-top:.1rem}
+.cat-badge{font-size:.75rem;font-weight:700;padding:.18rem .55rem;border-radius:3px;letter-spacing:.05em}
+.b-leve{background:rgba(26,80,160,.25);color:#7ab4f5}
+.b-med{background:rgba(212,168,67,.15);color:var(--gold)}
+.b-pes{background:rgba(200,16,46,.15);color:#f48}
+.b-sup{background:rgba(130,80,200,.15);color:#c4a0f0}
+.cat-note{font-size:.8rem;color:rgba(240,244,250,.3);padding:.65rem 1.4rem;border-top:1px solid rgba(26,80,160,.12);line-height:1.6}

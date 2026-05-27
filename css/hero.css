@@ -1,0 +1,30 @@
+.hero{min-height:100vh;display:flex;align-items:flex-end;position:relative;overflow:hidden}
+.hero-img{position:absolute;inset:0;background:url('../assets/foto-evento.jpg') center top/cover no-repeat;filter:grayscale(30%) brightness(.85)}
+.hero-color{position:absolute;inset:0;background:
+  radial-gradient(ellipse 55% 60% at 15% 20%, rgba(180,110,20,.45) 0%, transparent 60%),
+  linear-gradient(to top, rgba(4,16,43,1) 0%, rgba(4,16,43,.85) 35%, rgba(10,34,85,.5) 65%, rgba(4,16,43,.4) 100%)}
+.hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(26,80,160,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(26,80,160,.06) 1px,transparent 1px);background-size:55px 55px}
+.hero-content{position:relative;z-index:2;max-width:1100px;width:100%;margin:0 auto;padding:7rem 2.5rem 5rem}
+
+.hero-badge{display:inline-flex;align-items:center;gap:.6rem;border:1px solid rgba(212,168,67,.5);background:rgba(212,168,67,.1);padding:.35rem 1rem;border-radius:2px;margin-bottom:2rem}
+.hero-badge span{font-size:.72rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.hero-badge-dot{width:5px;height:5px;border-radius:50%;background:var(--gold);opacity:.7}
+
+.hero-year{font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:600;letter-spacing:.35em;color:rgba(212,168,67,.7);text-transform:uppercase;margin-bottom:.25rem}
+.hero-t1{font-family:'Bebas Neue',sans-serif;font-size:clamp(3rem,8vw,7rem);line-height:.95;letter-spacing:.04em;color:var(--silver-light)}
+.hero-t2{font-family:'Bebas Neue',sans-serif;font-size:clamp(3.5rem,10vw,9.5rem);line-height:.9;letter-spacing:.02em;color:var(--gold);display:block;text-shadow:0 2px 30px rgba(212,168,67,.3)}
+.hero-divider{display:flex;align-items:center;gap:1rem;margin:.75rem 0}
+.hero-divider-line{flex:1;height:1px;background:linear-gradient(90deg,rgba(212,168,67,.6),transparent)}
+.hero-divider-line.r{background:linear-gradient(270deg,rgba(212,168,67,.6),transparent)}
+.hero-sub{font-family:'Barlow Condensed',sans-serif;font-size:clamp(1.4rem,3.5vw,2.4rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--silver)}
+
+.hero-info{display:flex;gap:3rem;margin:2.5rem 0;flex-wrap:wrap}
+.hi{display:flex;flex-direction:column;gap:.35rem}
+.hi-label{font-size:.68rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:rgba(240,244,250,.35)}
+.hi-val{font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;font-weight:700;color:var(--white);letter-spacing:.03em}
+
+.hero-btns{display:flex;gap:1rem;flex-wrap:wrap;margin-top:.5rem}
+.btn-gold{background:var(--gold);color:var(--blue-deep);font-family:'Barlow Condensed',sans-serif;font-size:1.05rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:.9rem 2.5rem;border-radius:3px;text-decoration:none;transition:transform .15s,box-shadow .15s;display:inline-block}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(212,168,67,.35)}
+.btn-outline{border:1.5px solid rgba(184,196,212,.35);color:var(--white);font-family:'Barlow Condensed',sans-serif;font-size:1.05rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.9rem 2rem;border-radius:3px;text-decoration:none;transition:border-color .2s,background .2s;display:inline-block}
+.btn-outline:hover{border-color:var(--gold);background:rgba(212,168,67,.08)}

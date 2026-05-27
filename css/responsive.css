@@ -1,0 +1,11 @@
+@media(max-width:768px){
+  nav{padding:.85rem 1rem}
+  .nav-links{display:none}
+  .nav-links.open{display:flex;flex-direction:column;position:fixed;top:3px;left:0;right:0;background:rgba(4,16,43,0.98);padding:4rem 1.5rem 2rem;gap:1.25rem;z-index:150}
+  .nav-toggle{display:flex}
+  .hero-content{padding:6rem 1.5rem 4rem}
+  .wrap{padding:3.5rem 1.5rem}
+  .two-col,.cards3,.cat-grid{grid-template-columns:1fr;gap:1rem}
+  .hero-info{gap:1.75rem}
+  .cta-box{padding:2.5rem 1.5rem}
+}

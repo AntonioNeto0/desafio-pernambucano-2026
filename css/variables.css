@@ -1,0 +1,15 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --gold:#d4a843;
+  --gold-light:#f0c866;
+  --gold-dark:#9a7420;
+  --blue-deep:#04102b;
+  --blue-mid:#0a2255;
+  --blue-bright:#1a50a0;
+  --silver:#b8c4d4;
+  --silver-light:#dde4ee;
+  --white:#f0f4fa;
+  --red:#c8102e;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Barlow',sans-serif;background:var(--blue-deep);color:var(--white);overflow-x:hidden}

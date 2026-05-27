@@ -1,0 +1,11 @@
+.ribbon{position:fixed;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red) 33%,#e8e0d0 33% 66%,var(--blue-mid) 66%);z-index:300}
+
+nav{position:fixed;top:3px;left:0;right:0;z-index:200;display:flex;justify-content:space-between;align-items:center;padding:.85rem 2.5rem;background:rgba(4,16,43,0.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(212,168,67,0.25)}
+.nav-logo{font-family:'Bebas Neue',sans-serif;font-size:1.3rem;letter-spacing:.1em;color:var(--gold)}
+.nav-links{display:flex;gap:1.75rem;list-style:none}
+.nav-links a{color:rgba(240,244,250,0.65);text-decoration:none;font-size:.82rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;transition:color .2s}
+.nav-links a:hover{color:var(--gold)}
+.nav-cta{background:var(--gold);color:var(--blue-deep);padding:.45rem 1.2rem;border-radius:3px;font-weight:700;font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;transition:opacity .2s}
+.nav-cta:hover{opacity:.85}
+.nav-toggle{display:none;background:none;border:none;cursor:pointer;padding:.4rem;flex-direction:column;gap:5px}
+.nav-toggle span{display:block;width:22px;height:2px;background:var(--gold);transition:transform .2s,opacity .2s}
